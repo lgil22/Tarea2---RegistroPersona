@@ -10,5 +10,8 @@
         <MenuItem Header="Registros">
             <MenuItem Header="Personas"/>
         </MenuItem>
+        <MenuItem Header="Consultas">
+            <MenuItem Header="Personas"/>
+        </MenuItem>
     </Menu>
 </Window>
