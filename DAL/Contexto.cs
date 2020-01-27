@@ -9,7 +9,7 @@ using RegistroPersona.Entidades;
 //using Microsoft.EntityFrameworkCore;
 
 
-namespace RegistroPersona.DAL
+namespace RegistroPersona.DAL.Scripts
 {
     public class Contexto : DbContext
     {
@@ -19,7 +19,7 @@ namespace RegistroPersona.DAL
 
          }
 
-      /*  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+       /* protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server =.\SqlExpress; Database= PersonasDb; Trusted_Connection = True; ");
         }*/

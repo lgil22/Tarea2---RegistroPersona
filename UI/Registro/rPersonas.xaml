@@ -5,21 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RegistroPersona.UI.Registro"
         mc:Ignorable="d"
-        Title="Registro Personas" Height="450" Width="800">
-    <Grid>
+        Title="Registro Personas" Height="410" Width="408">
+    <Grid RenderTransformOrigin="1.001,0.596" HorizontalAlignment="Left" Width="790">
         <Grid.RowDefinitions>
-            <RowDefinition Height="377*"/>
-            <RowDefinition Height="57*"/>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Label Content="ID" HorizontalAlignment="Left" Margin="24,33,0,0" VerticalAlignment="Top" Height="26" Width="22"/>
         <Label Content="Nombre" HorizontalAlignment="Left" Margin="24,69,0,0" VerticalAlignment="Top" Height="26" Width="54"/>
-        <Label Content="Telefono" HorizontalAlignment="Left" Margin="24,118,0,0" VerticalAlignment="Top" Height="26" Width="55"/>
-        <Label Content="Cedula" HorizontalAlignment="Left" Margin="24,163,0,0" VerticalAlignment="Top" Height="26" Width="47"/>
-        <Label Content="Direccion" HorizontalAlignment="Left" Margin="24,217,0,0" VerticalAlignment="Top"/>
-        <Label Content="Fecha Nacimiento" HorizontalAlignment="Left" Margin="35,268,0,0" VerticalAlignment="Top"/>
+        <Label Content="Telefono" HorizontalAlignment="Left" Margin="26,105,0,0" VerticalAlignment="Top" Height="26" Width="56" RenderTransformOrigin="0.533,-0.665"/>
+        <Label Content="Cedula" HorizontalAlignment="Left" Margin="26,145,0,0" VerticalAlignment="Top" Height="26" Width="47" RenderTransformOrigin="0.319,1.335"/>
+        <Label Content="Direccion" HorizontalAlignment="Left" Margin="26,0,0,0" VerticalAlignment="Center" Height="26" Width="60" RenderTransformOrigin="0.489,-1.204"/>
+        <Label Content="Fecha Nacimiento" HorizontalAlignment="Left" Margin="24,232,0,0" VerticalAlignment="Top" Height="26" Width="105"/>
+        <DatePicker HorizontalAlignment="Left" Margin="134,232,0,0" VerticalAlignment="Top" Height="24" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="134,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Height="18"/>
+        <TextBox HorizontalAlignment="Left" Margin="134,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18"/>
+        <TextBox HorizontalAlignment="Left" Margin="134,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18"/>
+        <TextBox HorizontalAlignment="Left" Margin="134,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18"/>
+        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="87,322,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.555,-0.749" Height="37" Width="71"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="185,322,0,0" VerticalAlignment="Top" Height="37" Width="81"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="294,322,0,0" VerticalAlignment="Top" Width="77" Height="37"/>
+        <Button Content="Buscar" HorizontalAlignment="Left" Margin="294,25,0,0" VerticalAlignment="Top" Height="33" Width="77"/>
 
     </Grid>
 </Window>
