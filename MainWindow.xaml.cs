@@ -30,9 +30,9 @@ namespace RegistroPersona
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
             rPersonas pers = new rPersonas();
-            pers.MdiParent = this;
+           // pers.MdiParent = this;
             pers.Show();
-            this.AddChild(control)
+           // RegistroPersona(new Page.rPersonas());
         }
     }
 }
