@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 using System.Data;
 using RegistroPersona.Entidades;
 using Microsoft.EntityFrameworkCore;
+using RegistroPersona.UI.Registro;
+using RegistroPersona.UI;
+using RegistroPersona.BLL;
+
 
 
 namespace RegistroPersona.DAL
